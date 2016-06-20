@@ -1,6 +1,6 @@
 @echo off
 set Date=%date:~10,4%%date:~4,2%%date:~7,2%
-move F:\"Image Library"\new-download\*.jpg F:\"Image Library"\random%Date%.jpg
+move $Image Galery$"\new-download\*.jpg $Image Galery$\random%Date%.jpg
 
 wget --trust-server-names http://source.unsplash.com/random
 
